@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherAppMauiTask7.Pages.WeatherInfoPage"
+             Title="Weather Information"
+             Background="LightBlue">
+    <VerticalStackLayout>
+        <Frame Margin="20">
+            <Grid ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Entry Placeholder="Lat" Grid.Column="0"/>
+                <Entry Placeholder="Lon" Grid.Column="1"/>
+                <Button Text="Fetch" Grid.Column="2"/>
+            </Grid>
+        </Frame>
+        <Image WidthRequest="100" HeightRequest="100"/>
+        <Label HorizontalOptions="Center" FontSize="70" TextColor="White" Text="0C"/>
+        <Label HorizontalOptions="Center" FontSize="25" FontAttributes="Bold" TextColor="White" Text="Raining"/>
+        <Label HorizontalOptions="Center" FontSize="15" FontAttributes="Bold" TextColor="White" Text="Auckland, New Zealand"/>
+
+        <Grid Margin="20" ColumnSpacing="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Frame>
+                <VerticalStackLayout>
+                    <Label Text="0" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" TextColor="Blue"/>
+                    <Label Text="Humidity" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
