@@ -18,7 +18,7 @@
             </Grid>
         </Frame>
         <Image WidthRequest="100" HeightRequest="100"/>
-        <Label HorizontalOptions="Center" FontSize="70" TextColor="White" Text="0C"/>
+        <Label HorizontalOptions="Center" FontSize="70" TextColor="White" Text="0°C"/>
         <Label HorizontalOptions="Center" FontSize="25" FontAttributes="Bold" TextColor="White" Text="Raining"/>
         <Label HorizontalOptions="Center" FontSize="15" FontAttributes="Bold" TextColor="White" Text="Auckland, New Zealand"/>
 
@@ -29,12 +29,27 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Frame>
+            <Frame Grid.Column="0">
                 <VerticalStackLayout>
                     <Label Text="0" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" TextColor="Blue"/>
                     <Label Text="Humidity" HorizontalOptions="Center"/>
                 </VerticalStackLayout>
             </Frame>
+
+            <Frame Grid.Column="1">
+                <VerticalStackLayout>
+                    <Label Text="0%" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" TextColor="Blue"/>
+                    <Label Text="Cloud" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Grid.Column="2">
+                <VerticalStackLayout>
+                    <Label Text="YES" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" TextColor="Blue"/>
+                    <Label Text="Is Day" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
         </Grid>
     </VerticalStackLayout>
 </ContentPage>
