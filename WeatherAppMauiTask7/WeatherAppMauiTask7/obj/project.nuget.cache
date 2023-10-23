@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pwECSz9rfLYzdTrC0/LRC9j9hkky6umt1gvqQ0QMyqFlTMBGAQiTrtFDUaUxndTFdq5WAFqwnLLjVlHUfq0JDA==",
+  "dgSpecHash": "hbFa9Ry75wdDE5iH5EkRQW0Sw2Ts+aGxJuyYQgrQ2wX9gvQrcMP0Yxid7zip8A1NHlJOwAdnwDEyHmNiU2dVyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\harra\\Desktop\\Term 4\\MauiWeatherAppTask7\\WeatherAppMauiTask7\\WeatherAppMauiTask7\\WeatherAppMauiTask7.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\harra\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
